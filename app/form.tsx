@@ -233,7 +233,7 @@ export const TryItForm = () => {
               If you would like to use this tool programmatically, you can use
               our{" "}
               <a
-                className="text-indigo-400"
+                className="text-indigo-500"
                 target="_blank"
                 href="https://api.jsonmergepatch.com/docs"
               >
@@ -309,7 +309,7 @@ export const TryItForm = () => {
             <div className="mx-4">
               View the{" "}
               <a
-                className="text-indigo-400"
+                className="text-indigo-500"
                 target="_blank"
                 href="https://api.jsonmergepatch.com/docs"
               >
