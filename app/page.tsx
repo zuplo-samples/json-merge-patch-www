@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { TryItForm } from "./form";
 import Link from "next/link";
+import { Links } from "./links";
 
 export default function Home() {
   return (
@@ -17,6 +18,9 @@ export default function Home() {
             <h1 className="text-2xl -mt-4 mx-4">
               Free JSON Merge Patch Tool and API
             </h1>
+            <div className="absolute top-4 right-4">
+              <Links />
+            </div>
           </div>
           <div className="w-[400px] sm:w-[800px] mx-4 flex flex-col my-8 mt-10 gap-y-3">
             <h2 className="font-semibold text-lg">What is JSON Merge Patch?</h2>
