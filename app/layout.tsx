@@ -16,7 +16,7 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "JSON Merge Patcher - Free Online Merge Patch Tool and API",
   description:
-    "jsonmergepatch.com is a free tool that for applyingJSON Merge Patch operations to a provided JSON object, via UI or REST API.",
+    "jsonmergepatch.com is a free tool that for generating and applying JSON Merge Patches, via UI or REST API.",
   keywords: [
     "json merge patch",
     "json merge patch tool",
