@@ -242,6 +242,15 @@ export const TryItForm = () => {
               . The API is free to use and does not require an API key - but
               excessive use will be rate-limited. The API allows you to upload
               JSON objects, and then apply JSON Merge Patch operations to them.
+              API and docs were built using{" "}
+              <a
+                className="text-[#ff00bd]"
+                target="_blank"
+                href="https://zuplo.com?utm_source=json-merge-patch"
+              >
+                Zuplo
+              </a>
+              .
             </CardDescription>
           </CardHeader>
           <CardContent className="space-y-4 flex flex-col max-w-[100vw] -mx-4">

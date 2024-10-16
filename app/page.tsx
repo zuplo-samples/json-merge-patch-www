@@ -34,7 +34,15 @@ export default function Home() {
               </a>
               . It provides a simple way to describe changes to a JSON document,
               making it ideal for API interactions and data synchronization
-              tasks.
+              tasks.{" "}
+              <a
+                href="https://zuplo.com/blog/2024/10/11/what-is-json-merge-patch"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-indigo-400 hover:underline"
+              >
+                Learn more
+              </a>
             </p>
             <h2 className="font-semibold text-lg">
               How JSON Merge Patch Works
