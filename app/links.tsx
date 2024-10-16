@@ -16,7 +16,7 @@ export const Links = () => {
         <p className="sm:hidden">More Tools</p>{" "}
         <ChevronDown className="w-4 h-4 ml-1" />
       </DropdownMenuTrigger>
-      <DropdownMenuContent>
+      <DropdownMenuContent align="end">
         <DropdownMenuItem
           onClick={() => {
             window.open("https://zudoku.dev/", "_blank");
