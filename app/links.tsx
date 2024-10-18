@@ -12,8 +12,8 @@ export const Links = () => {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger className="flex items-center border border-gray-200 text-gray-200 hover:border-white hover:text-white px-2 rounded-lg">
-        <p className="hidden sm:flex">More API Tools</p>{" "}
-        <p className="sm:hidden">More Tools</p>{" "}
+        <p className="hidden sm:flex">More API Tools</p>
+        <p className="sm:hidden">More Tools</p>
         <ChevronDown className="w-4 h-4 ml-1" />
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
